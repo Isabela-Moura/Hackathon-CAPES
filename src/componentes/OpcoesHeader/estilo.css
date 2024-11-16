@@ -1,0 +1,33 @@
+.opcoes {
+    display: flex;
+}
+  
+.opcao {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 0 5px;
+    cursor: pointer;
+    min-width: 120px;
+  }
+
+  .icones {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icone {
+    margin-right: 10px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icone img {
+    width: 25px;
+  }
+  
