@@ -1,3 +1,4 @@
+import Chatbot from './componentes/Chatbot';
 import Header from './componentes/Header';
 import Pesquisa from './componentes/Pesquisa';
 import UltimosPeriodicos from './componentes/UltimosPeriodicos';
@@ -15,6 +16,7 @@ function App() {
       <Header/>
       <Pesquisa/>
       <UltimosPeriodicos/>
+      <Chatbot/>
     </AppContainer>
   );
 }
