@@ -16,15 +16,11 @@ function Chatbot() {
   return (
     <ChatbotContainer>
       <iframe
-        src="https://udify.app/chatbot/ZsAJZYo8JT6G9f4w"
-        style={{
-          width: '100%',
-          height: '100%',
-          border: 'none',
-        }}
-        title="Chatbot"
-        allow="microphone" /* Habilita o uso do microfone, se necessário */
-      ></iframe>
+ src="https://udify.app/chatbot/CkHJlBwrZ0rxyU38"
+ style="width: 100%; height: 100%; min-height: 700px"
+ frameborder="0"
+ allow="microphone">
+</iframe>
     </ChatbotContainer>
   );
 }
